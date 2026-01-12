@@ -351,5 +351,24 @@ console.log(max);
 console.log(min);
 
 
-6. 
+6. to find target element array?
+
+let arr = [2,7,6,8];
+let target = 9;
+
+for(let i =0; i<arr.length; i ++){
+    for(let j =i+1; j<arr.length;j++){
+        if((arr[i] +arr[j]) === target){
+            console.log([i,j]);
+            break;
+        }
+    }
+}
+
+
+// index: 0 1 2 4
+// arr:   2 7 6 8
+// i=0 = 2
+// j=0+1=1 = 7
+// arr[i] + arr[j] = 2+7 = 9;
 */
