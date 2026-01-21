@@ -112,4 +112,18 @@ let number = 4;
 let result = arr.find((num) => num === number);
 console.log(result ? "Number exists" : "Number does not exist");
 
+//To find even and odd element from an array
+let arr = [1, 2, 3, 4, 5, 6, 78, 8];
+let even = [];
+let odd = [];
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] % 2 == 0) {
+    //  even = arr[i];
+    even.push(arr[i]);
+  } else {
+    odd.push(arr[i]);
+  }
+}
+console.log(even);
+console.log(odd);
 */
